@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor=" #f2f2f2">
+	<h1 style="text-align: center;background-color: red;color: white"  >BLOOD BANK MANAGEMANT SYSTEM</h1>
+<table border="0" width="100%" bgcolor="black" style="color: white">
+	<tr>
+		<td align="right" width="10%"><img src="logo5.png" height="90px" width="110px"></td>
+	   
+	    <td width="13%" align="center"><b><a href="file:///C:/Users/user/Desktop/project%202/Project2.html" style="text-decoration: none;color: white">Home</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">Search</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">Live Blood Camps</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">Donor Registration</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">Admin Login</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">Contact Us</a></b></td>
+	    <td width="13%" align="center"><b><a href="" style="text-decoration: none;color: white">About Us</a></b></td>
+
+</tr>
+</table>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="slide1.jpg" width="100%" height="250px">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="slide2.jpg" style="width:100%" height="250px">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="slide3.jpg" style="width:100%" height="250px">
+ 
+</div>
+<div class="mySlides fade">
+  
+  <img src="slide6.jpg" style="width:100%" height="250px">
+ 
+</div>
+<div class="mySlides fade">
+  
+  <img src="slide5.jfif" style="width:100%" height="250px">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<table border="0" width="100%">
+  <tr>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="donor.png" width="160px" height="80px"></a></td>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="a1.png"  width="200px" height="80px"></a></td>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="delete.png"  width="200px" height="80px"></a></td>
+     
+      
+  </tr>
+  <tr>
+   <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black">Add Donor</a></td>
+   <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black">Search for Blood</a></td>
+   <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black">Delete Donor/Patient</a></td>
+  </tr>
+
+
+</table>
+<br><br>
+<table border="0" width="100%">
+  
+  <tr>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="images.png" width="200px" height="80px"></a></td>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="images (1).png"  width="200px" height="80px"></a></td>
+     <td style="text-align: center;" width="33.33%"><a href="" style="text-decoration: none;color: black"><img src="download.png"  width="200px" height="80px"></a></td>
+     
+      
+  </tr>
+   <tr>
+    <td style="text-align: center;"><a href="" style="text-decoration: none;color: black"><img src="" >Add Patient</a></td>
+    <td style="text-align: center;"><a href="" style="text-decoration: none;color: black"><img src="" >Donor List</a></td>
+    <td style="text-align: center;"><a href="" style="text-decoration: none;color: black"><img src="">Patient List</a></td>
+  </tr>
+</table>
+<br>
+
+<table width="100%" border="0" style="height: 100px">
+  <tr style="height: 100px">
+    <td width="50%"><img src="vis.png" width="80%" height="250px" style="margin: 70px"></td>
+    <td width="50%">
+      <h1 style="margin: 0px;padding: 20px;margin-top: 0px;padding-top: 0px;color: red">Our Vision</h1>
+      <p style="margin: 0px;padding: 20px;margin-top: 0px;padding-top: 0px">A Centre of Excellence in Blood Banking, Committed to Safe and High Quality Blood for Thalassemia and Leukemia Children, free of cost , thereby enabling them an opportunity for a normal and holistic life, while canvassing Blood Donation, as only Voluntary, and, at all times, guided by principles of Compassion, Care and uncompromising adherence to Integrity.
+For 2021, the World Blood Donor Day slogan will be “Give blood and keep the world beating”. The message highlights the essential contribution blood donors make to keeping the world pulsating by saving lives and improving others' health.</p>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>
